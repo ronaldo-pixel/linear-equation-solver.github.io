@@ -8,6 +8,11 @@
     src: url("GaruteMedium-z8D8a.otf");
 }
 
+@font-face {
+    font-family: Rony;
+    src: url("RonysiswadiArchitect4-qZmp2.ttf");
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -29,18 +34,49 @@ body{
     display: flex;
 }
 
-
 #main_body{
     margin: 4%;
     height:fit-content;
     background-color: whitesmoke;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 15%;
 }
-#main_body button{
+
+#top_form{
+    display: flex;
+    flex-direction: column;
+    font-family: Rony;
+    font-size: x-large;
+    margin-bottom: 0px ;
+}
+
+#top_form input{
+    padding: 10px;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 8px;
     text-align: center;
+    font-family: Rony;
+    font-size: inherit;
 }
-#num_of_var{
-    font-family: 'Times New Roman', Times, serif;
+
+#top_form button{
+    margin-top: 40px; 
+    width: 180px; 
+    padding: 5px; 
+    align-self: center;
+    font-size: large;
+
+    background-color: black;
+    color: white;
+    appearance: none;
+    border-radius: 10px;
+    
+}
+
+#top_form button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px ;
+
 }
