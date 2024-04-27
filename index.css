@@ -1,0 +1,46 @@
+@font-face {
+    font-family: KotaKali;
+    src: url("KotaKali-WppVY.otf");
+}
+
+@font-face {
+    font-family: MCR;
+    src: url("GaruteMedium-z8D8a.otf");
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: skyblue;
+    width: 100vw;
+    height: fit-content;
+}
+
+#main_head{
+    
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+    display: flex;
+}
+
+
+#main_body{
+    margin: 4%;
+    height:fit-content;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15%;
+}
+#main_body button{
+    text-align: center;
+}
+#num_of_var{
+    font-family: 'Times New Roman', Times, serif;
+}
